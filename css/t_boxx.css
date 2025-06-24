@@ -1,0 +1,50 @@
+.next-box, .prev-box {
+    width: 50%;
+    display: flex;
+}
+
+.prev-box {
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 10px;
+}
+
+.next-box {
+    justify-content: right;
+    padding: 0px 10px 0px 0px;
+}
+
+#next-btn, #prev-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 0.8rem;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+#next-btn:hover, #prev-btn:hover {
+    cursor: pointer;
+    background-color: rgb(202, 202, 202);
+}
+
+#feedback {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#riddle-container {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#restart-btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}

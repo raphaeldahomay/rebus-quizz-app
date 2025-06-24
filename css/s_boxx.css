@@ -1,0 +1,99 @@
+.title-box {
+    margin: 10px;
+    text-align: center;
+}
+
+.title-box h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.title-btn {
+    margin: 10px;
+    text-align: center;
+}
+
+#dem-btn {
+    width: 100px;
+    height: 40px;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+#dem-btn:hover {
+    cursor: pointer;
+}
+
+.rebus-box {
+    margin: 60px;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.answer-box {
+    margin: 0px 100px 20px 100px;
+    text-align: center;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.submit-box {
+    margin: 0 100px 0px 100px;
+    text-align: center;
+}
+
+#submit-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(202, 202, 202);
+}
+
+.feed-box {
+    margin: 0px 100px 20px 100px;
+    text-align: center
+}
+
+.switch-box {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+}
+
+.modal {
+    border: 1px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.anecd-div {
+    background-color: #f9f9f9;
+    border-left: 4px solid #012f54;
+    padding: 0px 10px 0px 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    font-style: italic;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 25px;
+}

@@ -1,0 +1,13 @@
+.img-box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie-poster {
+    width: 200px;
+    height: auto;  
+    border-radius: 5px;
+  }

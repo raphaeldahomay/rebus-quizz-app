@@ -1,0 +1,156 @@
+[
+    {
+      "type": "emoji",
+      "riddle": "🦁👑",
+      "answer": ["le roi lion", "the lion king"],
+      "image": "assets/img/lion-king.jpg",
+      "anecdote": "Le Roi Lion a été inspiré en partie par Hamlet de Shakespeare et des mythes africains."
+    },
+    {
+      "type": "text",
+      "riddle": "Tesseract",
+      "answer": ["interstellar"],
+      "image": "assets/img/interstellar.jpg",
+      "anecdote": "Kip Thorne, physicien, a conseillé le film pour garantir un réalisme scientifique sur les trous noirs."
+    },
+    {
+      "type": "text",
+      "riddle": "Je suis un rêve dans un rêve dans un rêve...",
+      "answer": ["inception"],
+      "image": "assets/img/inception.jpg",
+      "anecdote": "Christopher Nolan a mis près de 10 ans à écrire le scénario d'Inception."
+    },
+    {
+      "type": "emoji",
+      "riddle": "🧼👊",
+      "answer": ["fight club"],
+      "image": "assets/img/fightclub.jpg",
+      "anecdote": "Le savon dans Fight Club symbolise la purification du consumérisme."
+    },
+    {
+      "type": "emoji",
+      "riddle": "🐺💰",
+      "answer": ["le loup de wall street", "the wolf of wall street"],
+      "image": "assets/img/wolf-street.jpg",
+      "anecdote": "Le vrai Jordan Belfort fait une apparition dans le film à la fin."
+    },
+    {
+      "type": "text",
+      "riddle": "boîte de chocolat",
+      "answer": ["forrest gump"],
+      "image": "assets/img/forrest.jpg",
+      "anecdote": "Le banc de Forrest Gump a été placé exprès pour le tournage, et est aujourd'hui exposé dans un musée."
+    },
+    {
+      "type": "text",
+      "riddle": "il ne peut refuser",
+      "answer": ["le parrain", "the godfather"],
+      "image": "assets/img/godfather.jpg",
+      "anecdote": "Marlon Brando a mis des mouchoirs dans sa bouche pour créer la voix iconique de Don Corleone."
+    },
+    {
+      "type": "text",
+      "riddle": "morsmordre",
+      "answer": ["harry potter 4", "harry potter and the goblet of fire", "harry potter"],
+      "image": "assets/img/hp-four.jpg",
+      "anecdote": "Le titre original ne contient pas de numéro, contrairement aux versions françaises qui numérotent chaque film."
+    },
+    {
+      "type": "emoji",
+      "riddle": "💍🏰",
+      "answer": ["le seigneur des anneaux", "the lord of the rings"],
+      "image": "assets/img/lotr.jpg",
+      "anecdote": "La trilogie a été tournée simultanément en Nouvelle-Zélande pendant plus de 400 jours."
+    },
+    {
+      "type": "text",
+      "riddle": "🧑‍✈️🛩️",
+      "answer": ["arrête-moi si tu peux", "catch me if you can"],
+      "image": "assets/img/catch-me.jpg",
+      "anecdote": "Le vrai Frank Abagnale Jr. affirme que 80% du film est fidèle à sa vie."
+    },
+    {
+      "type": "text",
+      "riddle": "implique de grande responsabilité",
+      "answer": ["spider-man"],
+      "image": "assets/img/spider.jpg",
+      "anecdote": "La phrase 'With great power comes great responsibility' ne vient pas de l'oncle Ben, mais d'une narration dans le premier comic."
+    },
+    {
+      "type": "text",
+      "riddle": "...time to die",
+      "answer": ["blade runner"],
+      "image": "assets/img/blade-r.jpg",
+      "anecdote": "La scène de la mort de Roy Batty a été improvisée en partie par l’acteur Rutger Hauer."
+    },
+    {
+      "type": "emoji",
+      "riddle": "👽🌎",
+      "answer": ["E.T.", "e.t. the extra-terrestrial"],
+      "image": "assets/img/et.jpg",
+      "anecdote": "La célèbre réplique 'E.T. téléphone maison' a été enregistrée par une femme fumeuse au timbre de voix grave."
+    },
+    {
+      "type": "text",
+      "riddle": "personnage manniéré",
+      "answer": ["pirates des caraïbes", "pirates of the caribbean"],
+      "image": "assets/img/pirates.jpg",
+      "anecdote": "Johnny Depp s’est inspiré de Keith Richards, guitariste des Rolling Stones, pour jouer Jack Sparrow."
+    },
+    {
+      "type": "text",
+      "riddle": "rajeunit",
+      "answer": ["l'étrange histoire de Benjamin Button", "the curious case of benjamin button"],
+      "image": "assets/img/benjamin-b.jpg",
+      "anecdote": "Brad Pitt a été numériquement rajeuni dans de nombreuses scènes grâce à des techniques pionnières de motion capture."
+    },
+    {
+    "type": "text",
+    "riddle": "Je tourbillonne à l'infini",
+    "answer": ["gravity"],
+    "image": "assets/img/gravity.jpg",
+    "anecdote": "Le film a remporté 7 Oscars, dont celui de la meilleure réalisation pour Alfonso Cuarón."
+    },
+    {
+    "type": "emoji",
+    "riddle": "🌊🌀💤",
+    "answer": ["inception"],
+    "image": "assets/img/inception.jpg",
+    "anecdote": "Le totem qui tourne dans la dernière scène a alimenté des débats pendant des années."
+    },
+    {
+    "type": "emoji",
+    "riddle": "👦🧙‍♂️🧹",
+    "answer": ["harry potter à l'école des sorciers", "harry potter and the sorcerer's stone", "harry potter"],
+    "image": "assets/img/hp1.jpg",
+    "anecdote": "Les enfants de l’équipe de tournage devaient refaire leurs devoirs à Poudlard pour que les scènes d’école soient crédibles."
+    },
+    {
+    "type": "emoji",
+    "riddle": "🕶️🤖",
+    "answer": ["matrix", "la matrice"],
+    "image": "assets/img/matrix.jpg",
+    "anecdote": "Le code vert de la Matrice est basé sur des recettes de sushi numérisées."
+    },
+    {
+    "type": "text",
+    "riddle": "extinction",
+    "answer": ["jurassic park"],
+    "image": "assets/img/jurassic.jpg",
+    "anecdote": "Les rugissements des dinosaures sont un mix de sons d’animaux réels comme des éléphants, des lions et même des tortues en rut."
+    },
+    {
+    "type": "emoji",
+    "riddle": "🏠🎈",
+    "answer": ["là-haut", "up"],
+    "image": "assets/img/up.jpg",
+    "anecdote": "Il faudrait environ 12 millions de ballons pour soulever une vraie maison comme dans le film."
+    },
+    {
+    "type": "text",
+    "riddle": "code, mémoire et tatouages",
+    "answer": ["memento"],
+    "image": "assets/img/memento.jpg",
+    "anecdote": "Le film est raconté à l'envers pour refléter le trouble de la mémoire du personnage principal."
+    }
+  ]
