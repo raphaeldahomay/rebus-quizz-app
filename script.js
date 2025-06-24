@@ -22,12 +22,13 @@ async function loadRiddles() {
 }
 
 function showRiddle() {
-  const riddle = riddles[currentIndex];
-  const container = document.getElementById('riddle-container');
-  container.textContent = riddle.riddle;
-  document.getElementById('feedback').textContent = '';
-  document.getElementById('movie-poster').style.display = "none";
-  document.getElementById('anecd-box').style.display = 'none';
+    currentIndex = Math.floor(Math.random() * riddles.length)
+    const riddle = riddles[currentIndex];
+    const container = document.getElementById('riddle-container');
+    container.textContent = riddle.riddle;
+    document.getElementById('feedback').textContent = '';
+    document.getElementById('movie-poster').style.display = "none";
+    document.getElementById('anecd-box').style.display = 'none';
 }
 
 function checkAnswer() {
