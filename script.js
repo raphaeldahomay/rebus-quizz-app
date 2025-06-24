@@ -94,7 +94,7 @@ function previousRiddle () {
 }
 
 function goToPage() {
-    window.location.href = "index.html";
+    window.location.href = "quiz.html";
 }
 
 document.getElementById('next-btn').addEventListener('click', nextRiddle);
