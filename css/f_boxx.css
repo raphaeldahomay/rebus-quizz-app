@@ -3,14 +3,14 @@
 }
 
 .main-box {
-    height: 819px;
+    height: 825px;
     background-image: url("../assets/img/shining.jpg");
     background-size: cover;
 }
 
 .overlay-box-s {
     width: 100%;
-    height: 819px;
+    height: 825px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .cover-box {
-    height: 819px;
+    height: 825px;
     display: flex;
     flex-direction: column;
     align-items: center;
