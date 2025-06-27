@@ -69,6 +69,7 @@ function checkAnswer() {
         imageBox.style.display = "block";
         anecdoteText.textContent = riddles[currentIndex].anecdote || "";
         anecdoteBox.style.display = "block";
+        document.getElementById('reveal-res').style.display = 'none'
     } else {
         MovieTitle.style.display = 'none';
         imageBox.style.display = "none";
@@ -96,6 +97,7 @@ document.getElementById('submit-btn').addEventListener('click', checkAnswer);
 function nextRiddle() {
     const MovieTitle = document.getElementById('movie-specific');
     MovieTitle.style.display = 'none'
+    document.getElementById('reveal-res').style.display = 'none'
     history.push(currentIndex);
     cumul.push(currentIndex);
   
@@ -115,6 +117,7 @@ function nextRiddle() {
 function previousRiddle () {
     const MovieTitle = document.getElementById('movie-specific');
     MovieTitle.style.display = 'none'
+    document.getElementById('reveal-res').style.display = 'none'
     if (history.length > 0) {
         currentIndex = history.pop();
         showRiddle();
