@@ -61,8 +61,44 @@ input {
 }
 
 .feed-box {
-    margin: 0px 100px 20px 100px;
+    margin: 0px 100px 0px 100px;
     text-align: center
+}
+
+.movie-title {
+    width: 700px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#movie-specific {
+    font-family: 'Cinzel', serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    margin: 2rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.reveal-answer {
+    margin-top: 150px;
+}
+
+#reveal-btn {
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+}
+
+#reveal-btn:hover {
+    cursor: pointer;
 }
 
 .switch-box {
@@ -94,6 +130,4 @@ input {
     max-width: 600px;
     font-style: italic;
     box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
-    position: absolute;
-    bottom: 50px;
 }

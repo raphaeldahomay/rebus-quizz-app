@@ -1,9 +1,25 @@
 // script.js
 let riddles = [];
-let currentIndex = 0;
+let currentIndex = 0
 let history = [];
 let score = 0;
 let cumul = [0]
+
+function reveal_answer() {
+    const imageBox = document.getElementById('movie-poster');
+    const anecdoteBox = document.getElementById('anecd-box');
+    const anecdoteText = document.getElementById('anecdote');
+    const MovieTitle = document.getElementById('movie-specific');
+
+    MovieTitle.textContent = riddles[currentIndex].answer[0]
+    MovieTitle.style.display = "block"
+    imageBox.src = riddles[currentIndex].image;
+    imageBox.style.display = "block";
+    anecdoteText.textContent = riddles[currentIndex].anecdote || "";
+    anecdoteBox.style.display = "block";
+    document.getElementById('reveal-res').style.display = 'none'
+    document.getElementById('feedback').textContent = ''
+}
 
 function cleanText(text) {
     return text
@@ -18,11 +34,11 @@ function cleanText(text) {
 async function loadRiddles() {
   const res = await fetch('./riddles.json');
   riddles = await res.json();
+  currentIndex = Math.floor(Math.random() * riddles.length);
   showRiddle();
 }
 
 function showRiddle() {
-    currentIndex = Math.floor(Math.random() * riddles.length)
     const riddle = riddles[currentIndex];
     const container = document.getElementById('riddle-container');
     container.textContent = riddle.riddle;
@@ -42,21 +58,30 @@ function checkAnswer() {
     const imageBox = document.getElementById('movie-poster');
     const anecdoteBox = document.getElementById('anecd-box');
     const anecdoteText = document.getElementById('anecdote');
+    const MovieTitle = document.getElementById('movie-specific');
   
     if (isCorrect) {
         score += 1;
         feedback.textContent = "✅ Bonne réponse !";
+        MovieTitle.textContent = riddles[currentIndex].answer[0]
+        MovieTitle.style.display = "block"
         imageBox.src = riddles[currentIndex].image;
         imageBox.style.display = "block";
         anecdoteText.textContent = riddles[currentIndex].anecdote || "";
         anecdoteBox.style.display = "block";
     } else {
+        MovieTitle.style.display = 'none';
+        imageBox.style.display = "none";
+        anecdoteBox.style.display = "none";
         document.getElementById('feedback').textContent = "❌ Mauvaise réponse.";
+        document.getElementById('reveal-res').style.display = 'flex'
     }
   
     // Clear input
     document.getElementById('answer-input').value = '';
 }
+
+document.getElementById('reveal-btn').addEventListener('click', reveal_answer);
 
 function showFinalScore() {
     const modal = document.getElementById('final-score-modal');
@@ -69,6 +94,8 @@ function showFinalScore() {
 document.getElementById('submit-btn').addEventListener('click', checkAnswer);
 
 function nextRiddle() {
+    const MovieTitle = document.getElementById('movie-specific');
+    MovieTitle.style.display = 'none'
     history.push(currentIndex);
     cumul.push(currentIndex);
   
@@ -86,6 +113,8 @@ function nextRiddle() {
 }
 
 function previousRiddle () {
+    const MovieTitle = document.getElementById('movie-specific');
+    MovieTitle.style.display = 'none'
     if (history.length > 0) {
         currentIndex = history.pop();
         showRiddle();
@@ -102,7 +131,7 @@ document.getElementById('next-btn').addEventListener('click', nextRiddle);
 document.getElementById('prev-btn').addEventListener('click', previousRiddle);
 
 document.getElementById('restart-btn').addEventListener('click', () => {
-    currentIndex = 0;
+    currentIndex = Math.floor(Math.random() * riddles.length);
     score = 0;
     cumul = [0];
     history = [];
