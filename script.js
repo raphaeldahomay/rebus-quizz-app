@@ -31,12 +31,16 @@ function cleanText(text) {
       .trim();
   }
 
-async function loadRiddles() {
-  const res = await fetch('./riddles.json');
-  riddles = await res.json();
-  currentIndex = Math.floor(Math.random() * riddles.length);
-  showRiddle();
-}
+  async function loadRiddles() {
+    const res = await fetch('./riddles.json');
+    const allRiddles = await res.json();
+  
+    // Shuffle and pick 20
+    riddles = allRiddles.sort(() => Math.random() - 0.5).slice(0, 20);
+  
+    currentIndex = Math.floor(Math.random() * riddles.length);
+    showRiddle();
+  }
 
 function showRiddle() {
     const riddle = riddles[currentIndex];
