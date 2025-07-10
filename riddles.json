@@ -1,157 +1,248 @@
 [
-    {
-      "type": "emoji",
-      "riddle": "🦁👑",
-      "answer": ["Le Roi Lion", "The Lion King"],
-      "image": "assets/img/lion-king.jpg",
-      "anecdote": "Le Roi Lion a été inspiré en partie par Hamlet de Shakespeare et des mythes africains."
-    },
-    {
-      "type": "text",
-      "riddle": "Tesseract",
-      "answer": ["Interstellar"],
-      "image": "assets/img/interstellar.jpg",
-      "anecdote": "Kip Thorne, physicien, a conseillé le film pour garantir un réalisme scientifique sur les trous noirs."
-    },
-    {
-      "type": "text",
-      "riddle": "Je suis un rêve dans un rêve dans un rêve...",
-      "answer": ["Inception"],
-      "image": "assets/img/inception.jpg",
-      "anecdote": "Christopher Nolan a mis près de 10 ans à écrire le scénario d'Inception."
-    },
-    {
-      "type": "emoji",
-      "riddle": "🧼👊",
-      "answer": ["Fight Club"],
-      "image": "assets/img/fightclub.jpg",
-      "anecdote": "Le savon dans Fight Club symbolise la purification du consumérisme."
-    },
-    {
-      "type": "emoji",
-      "riddle": "🐺💰",
-      "answer": ["Le Loup De Wall Street", "The Wolf Of Wall Street"],
-      "image": "assets/img/wolf-street.jpg",
-      "anecdote": "Le vrai Jordan Belfort fait une apparition dans le film à la fin."
-    },
-    {
-      "type": "text",
-      "riddle": "boîte de chocolat",
-      "answer": ["Forrest Gump"],
-      "image": "assets/img/forrest.jpg",
-      "anecdote": "Le banc de Forrest Gump a été placé exprès pour le tournage, et est aujourd'hui exposé dans un musée."
-    },
-    {
-      "type": "text",
-      "riddle": "il ne peut refuser",
-      "answer": ["Le Parrain", "The Godfather"],
-      "image": "assets/img/godfather.jpg",
-      "anecdote": "Marlon Brando a mis des mouchoirs dans sa bouche pour créer la voix iconique de Don Corleone."
-    },
-    {
-      "type": "text",
-      "riddle": "morsmordre",
-      "answer": ["Harry Potter 4", "Harry Potter And The Goblet Of Fire", "Harry Potter"],
-      "image": "assets/img/hp-four.jpg",
-      "anecdote": "Le titre original ne contient pas de numéro, contrairement aux versions françaises qui numérotent chaque film."
-    },
-    {
-      "type": "emoji",
-      "riddle": "💍🏰",
-      "answer": ["Le Seigneur Des Anneaux", "The Lord Of The Rings"],
-      "image": "assets/img/lotr.jpg",
-      "anecdote": "La trilogie a été tournée simultanément en Nouvelle-Zélande pendant plus de 400 jours."
-    },
-    {
-      "type": "text",
-      "riddle": "🧑‍✈️🛩️",
-      "answer": ["Arrête-Moi Si Tu Peux", "Catch Me If You Can"],
-      "image": "assets/img/catch-me.jpg",
-      "anecdote": "Le vrai Frank Abagnale Jr. affirme que 80% du film est fidèle à sa vie."
-    },
-    {
-      "type": "text",
-      "riddle": "implique de grande responsabilité",
-      "answer": ["Spider-Man"],
-      "image": "assets/img/spider.jpg",
-      "anecdote": "La phrase 'With great power comes great responsibility' ne vient pas de l'oncle Ben, mais d'une narration dans le premier comic."
-    },
-    {
-      "type": "text",
-      "riddle": "...time to die",
-      "answer": ["Blade Runner"],
-      "image": "assets/img/blade-r.jpg",
-      "anecdote": "La scène de la mort de Roy Batty a été improvisée en partie par l’acteur Rutger Hauer."
-    },
-    {
-      "type": "emoji",
-      "riddle": "👽🌎",
-      "answer": ["E.T.", "E.T. The Extra-Terrestrial"],
-      "image": "assets/img/et.jpg",
-      "anecdote": "La célèbre réplique 'E.T. téléphone maison' a été enregistrée par une femme fumeuse au timbre de voix grave."
-    },
-    {
-      "type": "text",
-      "riddle": "personnage manniéré",
-      "answer": ["Pirates Des Caraïbes", "Pirates Of The Caribbean"],
-      "image": "assets/img/pirates.jpg",
-      "anecdote": "Johnny Depp s’est inspiré de Keith Richards, guitariste des Rolling Stones, pour jouer Jack Sparrow."
-    },
-    {
-      "type": "text",
-      "riddle": "rajeunit",
-      "answer": ["L'Étrange Histoire De Benjamin Button", "The Curious Case Of Benjamin Button"],
-      "image": "assets/img/benjamin-b.jpg",
-      "anecdote": "Brad Pitt a été numériquement rajeuni dans de nombreuses scènes grâce à des techniques pionnières de motion capture."
-    },
-    {
-      "type": "text",
-      "riddle": "Je tourbillonne à l'infini",
-      "answer": ["Gravity"],
-      "image": "assets/img/gravity.jpg",
-      "anecdote": "Le film a remporté 7 Oscars, dont celui de la meilleure réalisation pour Alfonso Cuarón."
-    },
-    {
-      "type": "emoji",
-      "riddle": "🌊🌀💤",
-      "answer": ["Inception"],
-      "image": "assets/img/inception.jpg",
-      "anecdote": "Le totem qui tourne dans la dernière scène a alimenté des débats pendant des années."
-    },
-    {
-      "type": "emoji",
-      "riddle": "👦🧙‍♂️🧹",
-      "answer": ["Harry Potter À L'École Des Sorciers", "Harry Potter And The Sorcerer's Stone", "Harry Potter"],
-      "image": "assets/img/hp1.jpg",
-      "anecdote": "Les enfants de l’équipe de tournage devaient refaire leurs devoirs à Poudlard pour que les scènes d’école soient crédibles."
-    },
-    {
-      "type": "emoji",
-      "riddle": "🕶️🤖",
-      "answer": ["Matrix", "La Matrice"],
-      "image": "assets/img/matrix.jpg",
-      "anecdote": "Le code vert de la Matrice est basé sur des recettes de sushi numérisées."
-    },
-    {
-      "type": "text",
-      "riddle": "extinction",
-      "answer": ["Jurassic Park"],
-      "image": "assets/img/jurassic.jpg",
-      "anecdote": "Les rugissements des dinosaures sont un mix de sons d’animaux réels comme des éléphants, des lions et même des tortues en rut."
-    },
-    {
-      "type": "emoji",
-      "riddle": "🏠🎈",
-      "answer": ["Là-Haut", "Up"],
-      "image": "assets/img/up.jpg",
-      "anecdote": "Il faudrait environ 12 millions de ballons pour soulever une vraie maison comme dans le film."
-    },
-    {
-      "type": "text",
-      "riddle": "code, mémoire et tatouages",
-      "answer": ["Memento"],
-      "image": "assets/img/memento.jpg",
-      "anecdote": "Le film est raconté à l'envers pour refléter le trouble de la mémoire du personnage principal."
-    }
-  ]
+  {
+    "type": "emoji",
+    "riddle": "🦁👑",
+    "answer": ["Le Roi Lion", "The Lion King"],
+    "image": "assets/img/lion-king.jpg",
+    "anecdote": "Le Roi Lion a été inspiré en partie par Hamlet de Shakespeare et des mythes africains."
+  },
+  {
+    "type": "text",
+    "riddle": "Tesseract",
+    "answer": ["Interstellar"],
+    "image": "assets/img/interstellar.jpg",
+    "anecdote": "Kip Thorne, physicien, a conseillé le film pour garantir un réalisme scientifique sur les trous noirs."
+  },
+  {
+    "type": "text",
+    "riddle": "Je suis un rêve dans un rêve dans un rêve...",
+    "answer": ["Inception"],
+    "image": "assets/img/inception.jpg",
+    "anecdote": "Christopher Nolan a mis près de 10 ans à écrire le scénario d'Inception."
+  },
+  {
+    "type": "emoji",
+    "riddle": "🧼👊",
+    "answer": ["Fight Club"],
+    "image": "assets/img/fightclub.jpg",
+    "anecdote": "Le savon dans Fight Club symbolise la purification du consumérisme."
+  },
+  {
+    "type": "emoji",
+    "riddle": "🐺💰",
+    "answer": ["Le Loup De Wall Street", "The Wolf Of Wall Street"],
+    "image": "assets/img/wolf-street.jpg",
+    "anecdote": "Le vrai Jordan Belfort fait une apparition dans le film à la fin."
+  },
+  {
+    "type": "text",
+    "riddle": "boîte de chocolat",
+    "answer": ["Forrest Gump"],
+    "image": "assets/img/forrest.jpg",
+    "anecdote": "Le banc de Forrest Gump a été placé exprès pour le tournage, et est aujourd'hui exposé dans un musée."
+  },
+  {
+    "type": "text",
+    "riddle": "il ne peut refuser",
+    "answer": ["Le Parrain", "The Godfather"],
+    "image": "assets/img/godfather.jpg",
+    "anecdote": "Marlon Brando a mis des mouchoirs dans sa bouche pour créer la voix iconique de Don Corleone."
+  },
+  {
+    "type": "text",
+    "riddle": "morsmordre",
+    "answer": ["Harry Potter 4", "Harry Potter And The Goblet Of Fire", "Harry Potter"],
+    "image": "assets/img/hp-four.jpg",
+    "anecdote": "Le titre original ne contient pas de numéro, contrairement aux versions françaises qui numérotent chaque film."
+  },
+  {
+    "type": "emoji",
+    "riddle": "💍🏰",
+    "answer": ["Le Seigneur Des Anneaux", "The Lord Of The Rings"],
+    "image": "assets/img/lotr.jpg",
+    "anecdote": "La trilogie a été tournée simultanément en Nouvelle-Zélande pendant plus de 400 jours."
+  },
+  {
+    "type": "text",
+    "riddle": "🧑‍✈️🛩️",
+    "answer": ["Arrête-Moi Si Tu Peux", "Catch Me If You Can"],
+    "image": "assets/img/catch-me.jpg",
+    "anecdote": "Le vrai Frank Abagnale Jr. affirme que 80% du film est fidèle à sa vie."
+  },
+  {
+    "type": "text",
+    "riddle": "implique de grande responsabilité",
+    "answer": ["Spider-Man"],
+    "image": "assets/img/spider.jpg",
+    "anecdote": "La phrase 'With great power comes great responsibility' ne vient pas de l'oncle Ben, mais d'une narration dans le premier comic."
+  },
+  {
+    "type": "text",
+    "riddle": "...time to die",
+    "answer": ["Blade Runner"],
+    "image": "assets/img/blade-r.jpg",
+    "anecdote": "La scène de la mort de Roy Batty a été improvisée en partie par l’acteur Rutger Hauer."
+  },
+  {
+    "type": "emoji",
+    "riddle": "👽🌎",
+    "answer": ["E.T.", "E.T. The Extra-Terrestrial"],
+    "image": "assets/img/et.jpg",
+    "anecdote": "La célèbre réplique 'E.T. téléphone maison' a été enregistrée par une femme fumeuse au timbre de voix grave."
+  },
+  {
+    "type": "text",
+    "riddle": "personnage manniéré",
+    "answer": ["Pirates Des Caraïbes", "Pirates Of The Caribbean"],
+    "image": "assets/img/pirates.jpg",
+    "anecdote": "Johnny Depp s’est inspiré de Keith Richards, guitariste des Rolling Stones, pour jouer Jack Sparrow."
+  },
+  {
+    "type": "text",
+    "riddle": "rajeunit",
+    "answer": ["L'Étrange Histoire De Benjamin Button", "The Curious Case Of Benjamin Button"],
+    "image": "assets/img/benjamin-b.jpg",
+    "anecdote": "Brad Pitt a été numériquement rajeuni dans de nombreuses scènes grâce à des techniques pionnières de motion capture."
+  },
+  {
+    "type": "text",
+    "riddle": "Je tourbillonne à l'infini",
+    "answer": ["Gravity"],
+    "image": "assets/img/gravity.jpg",
+    "anecdote": "Le film a remporté 7 Oscars, dont celui de la meilleure réalisation pour Alfonso Cuarón."
+  },
+  {
+    "type": "emoji",
+    "riddle": "🌊💤",
+    "answer": ["Inception"],
+    "image": "assets/img/inception.jpg",
+    "anecdote": "Le totem qui tourne dans la dernière scène a alimenté des débats pendant des années."
+  },
+  {
+    "type": "emoji",
+    "riddle": "⚡️🧹",
+    "answer": ["Harry Potter À L'École Des Sorciers", "Harry Potter And The Sorcerer's Stone", "Harry Potter"],
+    "image": "assets/img/hp1.jpg",
+    "anecdote": "Les enfants de l’équipe de tournage devaient refaire leurs devoirs à Poudlard pour que les scènes d’école soient crédibles."
+  },
+  {
+    "type": "emoji",
+    "riddle": "🕶️🤖",
+    "answer": ["Matrix", "La Matrice"],
+    "image": "assets/img/matrix.jpg",
+    "anecdote": "Le code vert de la Matrice est basé sur des recettes de sushi numérisées."
+  },
+  {
+    "type": "text",
+    "riddle": "extinction",
+    "answer": ["Jurassic Park"],
+    "image": "assets/img/jurassic.jpg",
+    "anecdote": "Les rugissements des dinosaures sont un mix de sons d’animaux réels comme des éléphants, des lions et même des tortues en rut."
+  },
+  {
+    "type": "emoji",
+    "riddle": "🏠🎈",
+    "answer": ["Là-Haut", "Up"],
+    "image": "assets/img/up.jpg",
+    "anecdote": "Il faudrait environ 12 millions de ballons pour soulever une vraie maison comme dans le film."
+  },
+  {
+    "type": "text",
+    "riddle": "code, mémoire et tatouages",
+    "answer": ["Memento"],
+    "image": "assets/img/memento.jpg",
+    "anecdote": "Le film est raconté à l'envers pour refléter le trouble de la mémoire du personnage principal."
+  },
+  {
+    "type": "text",
+    "riddle": "Call the popo hoe",
+    "answer": ["Madea", "Madea, grand-mère justicière", "Diary of a Mad Black Woman"],
+    "image": "assets/img/madea.jpg",
+    "anecdote": "Le personnage de Madea est interprété par Tyler Perry, qui a également créé la série et produit tous les films."
+  },
+  {
+    "type": "text",
+    "riddle": "The winter is coming",
+    "answer": ["Game of Thrones", "got"],
+    "image": "assets/img/got.jpg",
+    "anecdote": "Le trône de fer de la série Game of Thrones a été forgé à partir de 2000 épées selon la légende fictive."
+  },
+  {
+    "type": "text",
+    "riddle": "Crochet",
+    "answer": ["Peter Pan", "pan"],
+    "image": "assets/img/peter.jpg",
+    "anecdote": "J.M. Barrie a donné les droits de Peter Pan à un hôpital pour enfants de Londres afin de soutenir leur cause."
+  },
+  {
+    "type": "text",
+    "riddle": "Darla",
+    "answer": ["Le monde de Nemo", "Finding Nemo"],
+    "image": "assets/img/nemo.jpg",
+    "anecdote": "Darla dans Finding Nemo est inspirée par une vraie personne que les créateurs trouvaient trop énergique."
+  },
+  {
+    "type": "text",
+    "riddle": "L’Orbe (The Orb)",
+    "answer": ["Les gardiens de la galaxie", "Guardians of the Galaxy"],
+    "image": "assets/img/guardians.jpg",
+    "anecdote": "Chris Pratt a volé son costume de Star-Lord pour le porter dans des hôpitaux pédiatriques."
+  },
+  {
+    "type": "text",
+    "riddle": "Des créatures se cachent dans la brume",
+    "answer": ["The mist"],
+    "image": "assets/img/mist.jpg",
+    "anecdote": "Stephen King a qualifié 'The Mist' d’une de ses meilleures adaptations même si la fin diffère de son livre."
+  },
+  {
+    "type": "text",
+    "riddle": "Une bande de copain à la recherche d’un trésor",
+    "answer": ["Les Goonies", "The Goonies", "goonies"],
+    "image": "assets/img/goonies.jpg",
+    "anecdote": "Le tournage des Goonies a été fait chronologiquement pour que les enfants vivent l’aventure en même temps que leurs personnages."
+  },
+  {
+    "type": "text",
+    "riddle": "Un lasso, un chapeau, des énigmes",
+    "answer": ["Indiana Jones"],
+    "image": "assets/img/indiana.jpg",
+    "anecdote": "Harrison Ford a improvisé une scène culte dans Indiana Jones où il abat un sabreur au lieu de combattre à l’épée."
+  },
+  {
+    "type": "text",
+    "riddle": "Un phallus mangé par un poisson",
+    "answer": ["Piranha"],
+    "image": "assets/img/piranha.jpg",
+    "anecdote": "Le film Piranha de 1978 a failli être bloqué par Steven Spielberg car il sortait peu après Les Dents de la Mer."
+  },
+  {
+    "type": "text",
+    "riddle": "A vouloir ramener à la vie des espèces disparues, vous finissez par en payer le prix",
+    "answer": ["Jurassic Park"],
+    "image": "assets/img/jurassic.jpg",
+    "anecdote": "Le cri du T-Rex dans Jurassic Park est un mix de sons de chien, tigre, éléphant et alligator."
+  },
+  {
+    "type": "text",
+    "riddle": "Jouez ou mourrez",
+    "answer": ["Squid game"],
+    "image": "assets/img/squid.jpg",
+    "anecdote": "Squid Game a été écrit en 2009 mais a été rejeté pendant 10 ans avant d’être produit."
+  },
+  {
+    "type": "text",
+    "riddle": "Et moi, c’est Théodore",
+    "answer": ["Alvin et les chipmunks", "Alvin and the Chipmunks"],
+    "image": "assets/img/alvin.jpg",
+    "anecdote": "Les voix originales d'Alvin et les Chipmunks sont des enregistrements humains accélérés."
+  },
+  {
+    "type": "text",
+    "riddle": "Son seul ami est un cafard",
+    "answer": ["Wall-E", "walle"],
+    "image": "assets/img/walle.jpg",
+    "anecdote": "Wall-E contient très peu de dialogues car les créateurs voulaient montrer une histoire d'amour par les gestes."
+  }
+]
   
