@@ -1,248 +1,458 @@
 [
   {
     "type": "emoji",
-    "riddle": "🦁👑",
     "answer": ["Le Roi Lion", "The Lion King"],
     "image": "assets/img/lion-king.jpg",
-    "anecdote": "Le Roi Lion a été inspiré en partie par Hamlet de Shakespeare et des mythes africains."
+    "fr": {
+      "riddle": "🦁👑",
+      "anecdote": "Le Roi Lion a été inspiré en partie par Hamlet de Shakespeare et des mythes africains."
+    },
+    "en": {
+      "riddle": "🦁👑",
+      "anecdote": "The Lion King was partly inspired by Shakespeare's Hamlet and African myths."
+    }
   },
   {
     "type": "text",
-    "riddle": "Tesseract",
     "answer": ["Interstellar"],
     "image": "assets/img/interstellar.jpg",
-    "anecdote": "Kip Thorne, physicien, a conseillé le film pour garantir un réalisme scientifique sur les trous noirs."
+    "fr": {
+      "riddle": "Tesseract",
+      "anecdote": "Kip Thorne, physicien, a conseillé le film pour garantir un réalisme scientifique sur les trous noirs."
+    },
+    "en": {
+      "riddle": "Tesseract",
+      "anecdote": "Kip Thorne, a physicist, advised the film to ensure scientific realism about black holes."
+    }
   },
   {
     "type": "text",
-    "riddle": "Je suis un rêve dans un rêve dans un rêve...",
     "answer": ["Inception"],
     "image": "assets/img/inception.jpg",
-    "anecdote": "Christopher Nolan a mis près de 10 ans à écrire le scénario d'Inception."
+    "fr": {
+      "riddle": "Je suis un rêve dans un rêve dans un rêve...",
+      "anecdote": "Christopher Nolan a mis près de 10 ans à écrire le scénario d'Inception."
+    },
+    "en": {
+      "riddle": "I am a dream within a dream...",
+      "anecdote": "Christopher Nolan took nearly 10 years to write the script for Inception."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "🧼👊",
     "answer": ["Fight Club"],
     "image": "assets/img/fightclub.jpg",
-    "anecdote": "Le savon dans Fight Club symbolise la purification du consumérisme."
+    "fr": {
+      "riddle": "🧼👊",
+      "anecdote": "Le savon dans Fight Club symbolise la purification du consumérisme."
+    },
+    "en": {
+      "riddle": "🧼👊",
+      "anecdote": "The soap in Fight Club symbolizes the cleansing of consumerism."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "🐺💰",
     "answer": ["Le Loup De Wall Street", "The Wolf Of Wall Street"],
     "image": "assets/img/wolf-street.jpg",
-    "anecdote": "Le vrai Jordan Belfort fait une apparition dans le film à la fin."
+    "fr": {
+      "riddle": "🐺💰",
+      "anecdote": "Le film est basé sur les mémoires de Jordan Belfort, un courtier en bourse."
+    },
+    "en": {
+      "riddle": "🐺💰",
+      "anecdote": "The film is based on the memoirs of Jordan Belfort, a stockbroker."
+    }
   },
   {
     "type": "text",
-    "riddle": "boîte de chocolat",
     "answer": ["Forrest Gump"],
     "image": "assets/img/forrest.jpg",
-    "anecdote": "Le banc de Forrest Gump a été placé exprès pour le tournage, et est aujourd'hui exposé dans un musée."
+    "fr": {
+      "riddle": "boîte de chocolat",
+      "anecdote": "Tom Hanks a dû courir pendant des heures pour les scènes emblématiques de course de Forrest Gump."
+    },
+    "en": {
+      "riddle": "box of chocolates",
+      "anecdote": "Tom Hanks had to run for hours for the iconic running scenes in Forrest Gump."
+    }
   },
   {
     "type": "text",
-    "riddle": "il ne peut refuser",
     "answer": ["Le Parrain", "The Godfather"],
     "image": "assets/img/godfather.jpg",
-    "anecdote": "Marlon Brando a mis des mouchoirs dans sa bouche pour créer la voix iconique de Don Corleone."
+    "fr": {
+      "riddle": "il ne peut refuser",
+      "anecdote": "Marlon Brando a mis des mouchoirs dans sa bouche pour créer la voix iconique de Don Corleone."
+    },
+    "en": {
+      "riddle": "he cannot refuse",
+      "anecdote": "Marlon Brando stuffed tissues in his mouth to create the iconic voice of Don Corleone."
+    }
   },
   {
     "type": "text",
-    "riddle": "morsmordre",
     "answer": ["Harry Potter 4", "Harry Potter And The Goblet Of Fire", "Harry Potter"],
     "image": "assets/img/hp-four.jpg",
-    "anecdote": "Le titre original ne contient pas de numéro, contrairement aux versions françaises qui numérotent chaque film."
+    "fr": {
+      "riddle": "morsmordre",
+      "anecdote": "Le Quidditch a été inventé par J.K. Rowling dans un café en Écosse."
+    },
+    "en": {
+      "riddle": "morsmordre",
+      "anecdote": "Quidditch was invented by J.K. Rowling in a café in Scotland."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "💍🏰",
     "answer": ["Le Seigneur Des Anneaux", "The Lord Of The Rings"],
     "image": "assets/img/lotr.jpg",
-    "anecdote": "La trilogie a été tournée simultanément en Nouvelle-Zélande pendant plus de 400 jours."
+    "fr": {
+      "riddle": "💍🧙‍♂️",
+      "anecdote": "La trilogie a été tournée simultanément en Nouvelle-Zélande pendant plus de 400 jours."
+    },
+    "en": {
+      "riddle": "💍🧙‍♂️",
+      "anecdote": "The trilogy was filmed simultaneously in New Zealand over more than 400 days."
+    }
   },
   {
     "type": "text",
-    "riddle": "🧑‍✈️🛩️",
     "answer": ["Arrête-Moi Si Tu Peux", "Catch Me If You Can"],
     "image": "assets/img/catch-me.jpg",
-    "anecdote": "Le vrai Frank Abagnale Jr. affirme que 80% du film est fidèle à sa vie."
+    "fr": {
+      "riddle": "🧑‍✈️🛩️",
+      "anecdote": "Leonardo DiCaprio a été choisi pour le rôle principal à l'âge de 19 ans, devenant ainsi l'un des plus jeunes acteurs à jouer un personnage principal dans un film de Spielberg."
+    },
+    "en": {
+      "riddle": "🧑‍✈️🛩️",
+      "anecdote": "Leonardo DiCaprio was cast in the lead role at the age of 19, making him one of the youngest actors to play a lead character in a Spielberg film."
+    }
   },
   {
     "type": "text",
-    "riddle": "implique de grande responsabilité",
     "answer": ["Spider-Man"],
     "image": "assets/img/spider.jpg",
-    "anecdote": "La phrase 'With great power comes great responsibility' ne vient pas de l'oncle Ben, mais d'une narration dans le premier comic."
+    "fr": {
+      "riddle": "implique de grande responsabilité",
+      "anecdote": "La phrase 'With great power comes great responsibility' ne vient pas de l'oncle Ben, mais d'une narration dans le premier comic."
+    },
+    "en": {
+      "riddle": "comes great responsibility",
+      "anecdote": "The phrase 'With great power comes great responsibility' does not come from Uncle Ben, but from a narration in the first comic."
+    }
   },
   {
     "type": "text",
-    "riddle": "...time to die",
     "answer": ["Blade Runner"],
     "image": "assets/img/blade-r.jpg",
-    "anecdote": "La scène de la mort de Roy Batty a été improvisée en partie par l’acteur Rutger Hauer."
+    "fr": {
+      "riddle": "...time to die",
+      "anecdote": "La scène finale avec Roy Batty a été improvisée par Rutger Hauer, ajoutant une profondeur émotionnelle au personnage."
+    },
+    "en": {
+      "riddle": "...time to die",
+      "anecdote": "The final scene with Roy Batty was improvised by Rutger Hauer, adding emotional depth to the character."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "👽🌎",
     "answer": ["E.T.", "E.T. The Extra-Terrestrial"],
     "image": "assets/img/et.jpg",
-    "anecdote": "La célèbre réplique 'E.T. téléphone maison' a été enregistrée par une femme fumeuse au timbre de voix grave."
+    "fr": {
+      "riddle": "👽🌎",
+      "anecdote": "La célèbre réplique 'E.T. téléphone maison' a été enregistrée par une femme fumeuse au timbre de voix grave."
+    },
+    "en": {
+      "riddle": "👽🌎",
+      "anecdote": "The famous line 'E.T. phone home' was recorded by a smoker with a deep voice."
+    }
   },
   {
     "type": "text",
-    "riddle": "personnage manniéré",
     "answer": ["Pirates Des Caraïbes", "Pirates Of The Caribbean"],
     "image": "assets/img/pirates.jpg",
-    "anecdote": "Johnny Depp s’est inspiré de Keith Richards, guitariste des Rolling Stones, pour jouer Jack Sparrow."
+    "fr": {
+      "riddle": "personnage manniéré",
+      "anecdote": "Johnny Depp s’est inspiré de Keith Richards, guitariste des Rolling Stones, pour jouer Jack Sparrow."
+    },
+    "en": {
+      "riddle": "mannered character",
+      "anecdote": "Johnny Depp drew inspiration from Keith Richards, guitarist of the Rolling Stones, to play Jack Sparrow."
+    }
   },
   {
     "type": "text",
-    "riddle": "rajeunit",
     "answer": ["L'Étrange Histoire De Benjamin Button", "The Curious Case Of Benjamin Button"],
     "image": "assets/img/benjamin-b.jpg",
-    "anecdote": "Brad Pitt a été numériquement rajeuni dans de nombreuses scènes grâce à des techniques pionnières de motion capture."
+    "fr": {
+      "riddle": "rajeunit",
+      "anecdote": "Le film est basé sur une nouvelle de F. Scott Fitzgerald, mais le scénario a été écrit par Eric Roth."
+    },
+    "en": {
+      "riddle": "backward",
+      "anecdote": "The film is based on a short story by F. Scott Fitzgerald, but the screenplay was written by Eric Roth."
+    }
   },
   {
     "type": "text",
-    "riddle": "Je tourbillonne à l'infini",
     "answer": ["Gravity"],
     "image": "assets/img/gravity.jpg",
-    "anecdote": "Le film a remporté 7 Oscars, dont celui de la meilleure réalisation pour Alfonso Cuarón."
+    "fr": {
+      "riddle": "Je tourbillonne à l'infini",
+      "anecdote": "Le film a été tourné en grande partie en studio avec des effets spéciaux révolutionnaires pour simuler la gravité zéro."
+    },
+    "en": {
+      "riddle": "I swirl infinitely",
+      "anecdote": "The film was largely shot in a studio with revolutionary special effects to simulate zero gravity."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "🌊💤",
     "answer": ["Inception"],
     "image": "assets/img/inception.jpg",
-    "anecdote": "Le totem qui tourne dans la dernière scène a alimenté des débats pendant des années."
+    "fr": {
+      "riddle": "🌊💤",
+      "anecdote": "Le film a été tourné dans plusieurs pays, dont la France, le Japon et les États-Unis, pour représenter différents niveaux de rêve."
+    },
+    "en": {
+      "riddle": "🌊💤",
+      "anecdote": "The film was shot in several countries, including France, Japan, and the United States, to represent different levels of dreaming."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "⚡️🧹",
     "answer": ["Harry Potter À L'École Des Sorciers", "Harry Potter And The Sorcerer's Stone", "Harry Potter"],
     "image": "assets/img/hp1.jpg",
-    "anecdote": "Les enfants de l’équipe de tournage devaient refaire leurs devoirs à Poudlard pour que les scènes d’école soient crédibles."
+    "fr": {
+      "riddle": "⚡️🧹",
+      "anecdote": "Le premier film a été tourné dans de véritables châteaux et écoles en Écosse et en Angleterre pour donner vie à Poudlard."
+    },
+    "en": {
+      "riddle": "⚡️🧹",
+      "anecdote": "The first film was shot in real castles and schools in Scotland and England to bring Hogwarts to life."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "🕶️🤖",
     "answer": ["Matrix", "La Matrice"],
     "image": "assets/img/matrix.jpg",
-    "anecdote": "Le code vert de la Matrice est basé sur des recettes de sushi numérisées."
+    "fr": {
+      "riddle": "🕶️🤖",
+      "anecdote": "Les scènes d'action de Matrix ont été chorégraphiées par Yuen Woo-ping, un maître des arts martiaux."
+    },
+    "en": {
+      "riddle": "🕶️🤖",
+      "anecdote": "The action scenes in The Matrix were choreographed by Yuen Woo-ping, a master of martial arts."
+    }
   },
   {
     "type": "text",
-    "riddle": "extinction",
-    "answer": ["Jurassic Park"],
+    "answer": ["Jurassic Park", "Jurassic"],
     "image": "assets/img/jurassic.jpg",
-    "anecdote": "Les rugissements des dinosaures sont un mix de sons d’animaux réels comme des éléphants, des lions et même des tortues en rut."
+    "fr": {
+      "riddle": "extinction",
+      "anecdote": "Le film a utilisé des animatroniques et des effets spéciaux révolutionnaires pour donner vie aux dinosaures."
+    },
+    "en": {
+      "riddle": "extinction",
+      "anecdote": "The film used animatronics and revolutionary special effects to bring dinosaurs to life."
+    }
   },
   {
     "type": "emoji",
-    "riddle": "🏠🎈",
     "answer": ["Là-Haut", "Up"],
     "image": "assets/img/up.jpg",
-    "anecdote": "Il faudrait environ 12 millions de ballons pour soulever une vraie maison comme dans le film."
+    "fr": {
+      "riddle": "🎈🏠",
+      "anecdote": "Le film Là-Haut a été le premier film d'animation à ouvrir le Festival de Cannes."
+    },
+    "en": {
+      "riddle": "🎈🏠",
+      "anecdote": "The animated film Up was the first animated film to open the Cannes Film Festival."
+    }
   },
   {
     "type": "text",
-    "riddle": "code, mémoire et tatouages",
     "answer": ["Memento"],
     "image": "assets/img/memento.jpg",
-    "anecdote": "Le film est raconté à l'envers pour refléter le trouble de la mémoire du personnage principal."
+    "fr": {
+      "riddle": "code, mémoire et tatouages",
+      "anecdote": "Le film Memento est raconté à l'envers pour refléter le trouble de la mémoire du personnage principal."
+    },
+    "en": {
+      "riddle": "code, memory, and tattoos",
+      "anecdote": "The film Memento is told in reverse to reflect the main character's memory disorder."
+    }
   },
   {
     "type": "text",
-    "riddle": "Call the popo hoe",
     "answer": ["Madea", "Madea, grand-mère justicière", "Diary of a Mad Black Woman"],
     "image": "assets/img/madea.jpg",
-    "anecdote": "Le personnage de Madea est interprété par Tyler Perry, qui a également créé la série et produit tous les films."
+    "fr": {
+      "riddle": "Call the popo hoe",
+      "anecdote": "Madea est un personnage créé par Tyler Perry, qui a également joué dans tous les films de la franchise."
+    },
+    "en": {
+      "riddle": "Call the popo hoe",
+      "anecdote": "Madea is a character created by Tyler Perry, who also starred in all the films in the franchise."
+    }
   },
   {
     "type": "text",
-    "riddle": "The winter is coming",
     "answer": ["Game of Thrones", "got"],
     "image": "assets/img/got.jpg",
-    "anecdote": "Le trône de fer de la série Game of Thrones a été forgé à partir de 2000 épées selon la légende fictive."
+    "fr": {
+      "riddle": "L'hiver approche",
+      "anecdote": "Le trône de fer de la série Game of Thrones a été forgé à partir de 2000 épées selon la légende fictive."
+    },
+    "en": {
+      "riddle": "The winter is coming",
+      "anecdote": "The Iron Throne in the Game of Thrones series was forged from 2000 swords according to fictional legend."
+    }
   },
   {
     "type": "text",
-    "riddle": "Crochet",
     "answer": ["Peter Pan", "pan"],
     "image": "assets/img/peter.jpg",
-    "anecdote": "J.M. Barrie a donné les droits de Peter Pan à un hôpital pour enfants de Londres afin de soutenir leur cause."
+    "fr": {
+      "riddle": "...j'y crois, j'y crois",
+      "anecdote": "J.M. Barrie a donné les droits de Peter Pan à un hôpital pour enfants de Londres afin de soutenir leur cause."
+    },
+    "en": {
+      "riddle": "...I do, I do",
+      "anecdote": "J.M. Barrie gave the rights to Peter Pan to a children's hospital in London to support their cause."
+    }
   },
   {
     "type": "text",
-    "riddle": "Darla",
     "answer": ["Le monde de Nemo", "Finding Nemo"],
     "image": "assets/img/nemo.jpg",
-    "anecdote": "Darla dans Finding Nemo est inspirée par une vraie personne que les créateurs trouvaient trop énergique."
+    "fr": {
+      "riddle": "Darla",
+      "anecdote": "Le film a été le premier à utiliser la technologie de rendu de l'eau pour créer des effets réalistes."
+    },
+    "en": {
+      "riddle": "Darla",
+      "anecdote": "The film was the first to use water rendering technology to create realistic effects."
+    }
   },
   {
     "type": "text",
-    "riddle": "L’Orbe (The Orb)",
     "answer": ["Les gardiens de la galaxie", "Guardians of the Galaxy"],
     "image": "assets/img/guardians.jpg",
-    "anecdote": "Chris Pratt a volé son costume de Star-Lord pour le porter dans des hôpitaux pédiatriques."
+    "fr": {
+      "riddle": "L'Orbe",
+      "anecdote": "Le film a revitalisé la carrière de Chris Pratt, le propulsant au rang de superstar d'Hollywood."
+    },
+    "en": {
+      "riddle": "The Orb",
+      "anecdote": "The film revitalized Chris Pratt's career, propelling him to Hollywood superstar status."
+    }
   },
   {
     "type": "text",
-    "riddle": "Des créatures se cachent dans la brume",
     "answer": ["The mist"],
     "image": "assets/img/mist.jpg",
-    "anecdote": "Stephen King a qualifié 'The Mist' d’une de ses meilleures adaptations même si la fin diffère de son livre."
+    "fr": {
+      "riddle": "Des choses se cachent dans la brume",
+      "anecdote": "Stephen King a qualifié 'The Mist' d’une de ses meilleures adaptations même si la fin diffère de son livre."
+    },
+    "en": {
+      "riddle": "Things hide in the fog",
+      "anecdote": "Stephen King called 'The Mist' one of his best adaptations even though the ending differs from his book."
+    }
   },
   {
     "type": "text",
-    "riddle": "Une bande de copain à la recherche d’un trésor",
     "answer": ["Les Goonies", "The Goonies", "goonies"],
     "image": "assets/img/goonies.jpg",
-    "anecdote": "Le tournage des Goonies a été fait chronologiquement pour que les enfants vivent l’aventure en même temps que leurs personnages."
+    "fr": {
+      "riddle": "Willy le Borgne",
+      "anecdote": "Le film Les Goonies a été écrit par Steven Spielberg et réalisé par Richard Donner."
+    },
+    "en": {
+      "riddle": "One-Eyed Willy",
+      "anecdote": "The Goonies was written by Steven Spielberg and directed by Richard Donner."
+    }
   },
   {
     "type": "text",
-    "riddle": "Un lasso, un chapeau, des énigmes",
     "answer": ["Indiana Jones"],
     "image": "assets/img/indiana.jpg",
-    "anecdote": "Harrison Ford a improvisé une scène culte dans Indiana Jones où il abat un sabreur au lieu de combattre à l’épée."
+    "fr": {
+      "riddle": "Je déteste les serpents",
+      "anecdote": "Le personnage d'Indiana Jones a été inspiré par les héros d'aventure des années 30 et 40."
+    },
+    "en": {
+      "riddle": "I hate snakes",
+      "anecdote": "The character of Indiana Jones was inspired by adventure heroes from the 1930s and 40s."
+    }
   },
   {
     "type": "text",
-    "riddle": "Un phallus mangé par un poisson",
     "answer": ["Piranha"],
     "image": "assets/img/piranha.jpg",
-    "anecdote": "Le film Piranha de 1978 a failli être bloqué par Steven Spielberg car il sortait peu après Les Dents de la Mer."
+    "fr": {
+      "riddle": "Un phallus mangé par un poisson",
+      "anecdote": "Le film Piranha de 1978 a failli être bloqué par Steven Spielberg car il sortait peu après Les Dents de la Mer."
+    },
+    "en": {
+      "riddle": "A phallus eaten by a fish",
+      "anecdote": "The 1978 film Piranha almost got blocked by Steven Spielberg because it was released shortly after Jaws."
+    }
   },
   {
     "type": "text",
-    "riddle": "A vouloir ramener à la vie des espèces disparues, vous finissez par en payer le prix",
     "answer": ["Jurassic Park"],
     "image": "assets/img/jurassic.jpg",
-    "anecdote": "Le cri du T-Rex dans Jurassic Park est un mix de sons de chien, tigre, éléphant et alligator."
+    "fr": {
+      "riddle": "...vous finissez par en payer le prix",
+      "anecdote": "Le cri du T-Rex dans Jurassic Park est un mix de sons de chien, tigre, éléphant et alligator."
+    },
+    "en": {
+      "riddle": "...you end up paying the price",
+      "anecdote": "The T-Rex roar in Jurassic Park is a mix of dog, tiger, elephant, and alligator sounds."
+    }
   },
   {
     "type": "text",
-    "riddle": "Jouez ou mourrez",
     "answer": ["Squid game"],
     "image": "assets/img/squid.jpg",
-    "anecdote": "Squid Game a été écrit en 2009 mais a été rejeté pendant 10 ans avant d’être produit."
+    "fr": {
+      "riddle": "Jouez ou mourrez",
+      "anecdote": "Squid Game a été écrit en 2009 mais a été rejeté pendant 10 ans avant d’être produit."
+    },
+    "en": {
+      "riddle": "Play or die",
+      "anecdote": "Squid Game was written in 2009 but was rejected for 10 years before being produced."
+    }
   },
   {
     "type": "text",
-    "riddle": "Et moi, c’est Théodore",
     "answer": ["Alvin et les chipmunks", "Alvin and the Chipmunks"],
     "image": "assets/img/alvin.jpg",
-    "anecdote": "Les voix originales d'Alvin et les Chipmunks sont des enregistrements humains accélérés."
+    "fr": {
+      "riddle": "Et moi, c’est Théodore",
+      "anecdote": "Les voix originales d'Alvin et les Chipmunks sont des enregistrements humains accélérés."
+    },
+    "en": {
+      "riddle": "And I'm Theodore",
+      "anecdote": "The original voices of Alvin and the Chipmunks are sped-up human recordings."
+    }
   },
   {
     "type": "text",
-    "riddle": "Son seul ami est un cafard",
     "answer": ["Wall-E", "walle"],
     "image": "assets/img/walle.jpg",
-    "anecdote": "Wall-E contient très peu de dialogues car les créateurs voulaient montrer une histoire d'amour par les gestes."
+    "fr": {
+      "riddle": "Son seul ami est un cafard",
+      "anecdote": "Wall-E contient très peu de dialogues car les créateurs voulaient montrer une histoire d'amour par les gestes."
+    },
+    "en": {
+      "riddle": "His only friend is a cockroach",
+      "anecdote": "Wall-E contains very few dialogues because the creators wanted to show a love story through gestures."
+    }
   }
 ]
   

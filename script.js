@@ -1,149 +1,197 @@
-// script.js
-let riddles = [];
-let currentIndex = 0
-let history = [];
-let score = 0;
-let cumul = [0]
+// rebus-quiz/script.js
 
-function reveal_answer() {
-    const imageBox = document.getElementById('movie-poster');
-    const anecdoteBox = document.getElementById('anecd-box');
-    const anecdoteText = document.getElementById('anecdote');
-    const MovieTitle = document.getElementById('movie-specific');
-
-    MovieTitle.textContent = riddles[currentIndex].answer[0]
-    MovieTitle.style.display = "block"
-    imageBox.src = riddles[currentIndex].image;
-    imageBox.style.display = "block";
-    anecdoteText.textContent = riddles[currentIndex].anecdote || "";
-    anecdoteBox.style.display = "block";
-    document.getElementById('reveal-res').style.display = 'none'
-    document.getElementById('feedback').textContent = ''
-}
-
-function cleanText(text) {
+// 📦 DOM References
+const el = {
+    answerInput: document.getElementById('answer-input'),
+    submitBtn: document.getElementById('submit-btn'),
+    feedback: document.getElementById('feedback'),
+    poster: document.getElementById('movie-poster'),
+    anecdoteBox: document.getElementById('anecd-box'),
+    anecdoteText: document.getElementById('anecdote'),
+    movieTitle: document.getElementById('movie-specific'),
+    revealBox: document.getElementById('reveal-res'),
+    riddleContainer: document.getElementById('riddle-container'),
+    finalModal: document.getElementById('final-score-modal'),
+    scoreText: document.getElementById('score-text'),
+    languageSelect: document.getElementById('language-switcher'),
+    nextBtn: document.getElementById('next-btn'),
+    prevBtn: document.getElementById('prev-btn'),
+    restartBtn: document.getElementById('restart-btn')
+  };
+  
+  // 🧠 Game State
+  let riddles = [];
+  let currentIndex = 0;
+  let history = [];
+  let score = 0;
+  let usedIndices = [];
+  let language = document.documentElement.lang || 'en';
+  
+  // 🔠 Text cleaner
+  function cleanText(text) {
     return text
       .toLowerCase()
-      .normalize("NFD")                  // separate accents
-      .replace(/[\u0300-\u036f]/g, "")  // remove accents
-      .replace(/[^a-z0-9]/g, " ")       // remove punctuation incl. hyphen, replace with space
-      .replace(/\s+/g, " ")             // collapse multiple spaces
+      .normalize("NFD")
+      .replace(/\p{Diacritic}/gu, "")
+      .replace(/[^a-z0-9]/g, " ")
+      .replace(/\s+/g, " ")
       .trim();
   }
-
+  
+  // 📜 Load Riddles
   async function loadRiddles() {
-    const res = await fetch('./riddles.json');
-    const allRiddles = await res.json();
-  
-    // Shuffle and pick 20
-    riddles = allRiddles.sort(() => Math.random() - 0.5).slice(0, 20);
-  
-    currentIndex = Math.floor(Math.random() * riddles.length);
-    showRiddle();
+    try {
+      const res = await fetch('./riddles.json');
+      const allRiddles = await res.json();
+      riddles = allRiddles.sort(() => Math.random() - 0.5).slice(0, 20);
+      currentIndex = 0;
+      usedIndices = [currentIndex];
+      if (el.riddleContainer) showRiddle();
+    } catch (error) {
+      console.error("Failed to load riddles:", error);
+    }
   }
-
-function showRiddle() {
-    const riddle = riddles[currentIndex];
-    const container = document.getElementById('riddle-container');
-    container.textContent = riddle.riddle;
-    document.getElementById('feedback').textContent = '';
-    document.getElementById('movie-poster').style.display = "none";
-    document.getElementById('anecd-box').style.display = 'none';
-}
-
-function checkAnswer() {
-    const userInput = cleanText(document.getElementById('answer-input').value)
-    const acceptedAnswers = Array.isArray(riddles[currentIndex].answer)
-      ? riddles[currentIndex].answer
-      : [riddles[currentIndex].answer];
   
-    const isCorrect = acceptedAnswers.some(answer => cleanText(answer) === userInput);
-    const feedback = document.getElementById('feedback');
-    const imageBox = document.getElementById('movie-poster');
-    const anecdoteBox = document.getElementById('anecd-box');
-    const anecdoteText = document.getElementById('anecdote');
-    const MovieTitle = document.getElementById('movie-specific');
+  // 🧩 Display Riddle
+  function showRiddle() {
+    el.answerInput.style.display = 'flex';
+    el.submitBtn.style.display = 'flex';
+    el.riddleContainer.style.display = 'flex';
+    if (!el.riddleContainer || !riddles[currentIndex]) return;
+    const r = riddles[currentIndex];
+    el.riddleContainer.textContent = r[language]?.riddle || '';
+    if (el.feedback) el.feedback.textContent = '';
+    if (el.poster) el.poster.style.display = 'none';
+    if (el.anecdoteBox) el.anecdoteBox.style.display = 'none';
+    if (el.movieTitle) el.movieTitle.style.display = 'none';
+    if (el.revealBox) el.revealBox.style.display = 'none';
+  }
+  
+  // ✅ Check Answer
+  function checkAnswer() {
+    if (!riddles[currentIndex]) return;
+    const input = cleanText(el.answerInput?.value || "");
+    const r = riddles[currentIndex];
+    const validAnswers = Array.isArray(r.answer) ? r.answer : [r.answer];
+    const isCorrect = validAnswers.some(a => cleanText(a) === input);
+  
+    if (!el.feedback) return;
   
     if (isCorrect) {
-        score += 1;
-        feedback.textContent = "✅ Bonne réponse !";
-        MovieTitle.textContent = riddles[currentIndex].answer[0]
-        MovieTitle.style.display = "block"
-        imageBox.src = riddles[currentIndex].image;
-        imageBox.style.display = "block";
-        anecdoteText.textContent = riddles[currentIndex].anecdote || "";
-        anecdoteBox.style.display = "block";
-        document.getElementById('reveal-res').style.display = 'none'
+      el.answerInput.style.display = 'none';
+      el.submitBtn.style.display = 'none';
+      el.riddleContainer.style.display = 'none';
+      score++;
+      el.feedback.textContent = language === 'fr' ? '✅ Bonne réponse !' : '✅ Good answer!';
+      if (el.movieTitle) {
+        el.movieTitle.textContent = r.answer[0];
+        el.movieTitle.style.display = 'block';
+      }
+      if (el.poster) {
+        el.poster.src = r.image;
+        el.poster.style.display = 'block';
+      }
+      if (el.anecdoteText) el.anecdoteText.textContent = r[language]?.anecdote || '';
+      if (el.anecdoteBox) el.anecdoteBox.style.display = 'block';
+      if (el.revealBox) el.revealBox.style.display = 'none';
     } else {
-        MovieTitle.style.display = 'none';
-        imageBox.style.display = "none";
-        anecdoteBox.style.display = "none";
-        document.getElementById('feedback').textContent = "❌ Mauvaise réponse.";
-        document.getElementById('reveal-res').style.display = 'flex'
+      el.feedback.textContent = language === 'fr' ? '❌ Mauvaise réponse !' : '❌ Wrong answer!';
+      if (el.revealBox) el.revealBox.style.display = 'flex';
+      if (el.movieTitle) el.movieTitle.style.display = 'none';
+      if (el.poster) el.poster.style.display = 'none';
+      if (el.anecdoteBox) el.anecdoteBox.style.display = 'none';
     }
   
-    // Clear input
-    document.getElementById('answer-input').value = '';
-}
-
-document.getElementById('reveal-btn').addEventListener('click', reveal_answer);
-
-function showFinalScore() {
-    const modal = document.getElementById('final-score-modal');
-    const scoreText = document.getElementById('score-text');
-    
-    scoreText.textContent = `Ton score est de ${score} / ${riddles.length}`;
-    modal.style.display = 'flex';
-}
-
-document.getElementById('submit-btn').addEventListener('click', checkAnswer);
-
-function nextRiddle() {
-    const MovieTitle = document.getElementById('movie-specific');
-    MovieTitle.style.display = 'none'
-    document.getElementById('reveal-res').style.display = 'none'
+    if (el.answerInput) el.answerInput.value = '';
+  }
+  
+  // 👀 Reveal Answer
+  function revealAnswer() {
+    el.answerInput.style.display = 'none';
+    el.submitBtn.style.display = 'none';
+    el.riddleContainer.style.display = 'none';
+    if (!riddles[currentIndex]) return;
+    const r = riddles[currentIndex];
+    if (el.movieTitle) {
+      el.movieTitle.textContent = r.answer[0];
+      el.movieTitle.style.display = 'block';
+    }
+    if (el.poster) {
+      el.poster.src = r.image;
+      el.poster.style.display = 'block';
+    }
+    if (el.anecdoteText) el.anecdoteText.textContent = r[language]?.anecdote || '';
+    if (el.anecdoteBox) el.anecdoteBox.style.display = 'block';
+    if (el.revealBox) el.revealBox.style.display = 'none';
+    if (el.feedback) el.feedback.textContent = '';
+  }
+  
+  // 🧭 Navigate
+  function nextRiddle() {
     history.push(currentIndex);
-    cumul.push(currentIndex);
-  
-    if (cumul.length < riddles.length) {
-      let nextIndex;
+    if (usedIndices.length < riddles.length) {
+      let next;
       do {
-        nextIndex = Math.floor(Math.random() * riddles.length);
-      } while (cumul.includes(nextIndex));
-  
-      currentIndex = nextIndex;
+        next = Math.floor(Math.random() * riddles.length);
+      } while (usedIndices.includes(next));
+      usedIndices.push(next);
+      currentIndex = next;
       showRiddle();
     } else {
       showFinalScore();
     }
-}
-
-function previousRiddle () {
-    const MovieTitle = document.getElementById('movie-specific');
-    MovieTitle.style.display = 'none'
-    document.getElementById('reveal-res').style.display = 'none'
+  }
+  
+  function previousRiddle() {
     if (history.length > 0) {
-        currentIndex = history.pop();
-        showRiddle();
+      currentIndex = history.pop();
+      showRiddle();
     } else {
-        alert("Aucun rébus précédent !");
+      alert(language === 'fr' ? 'Aucun rébus précédent !' : 'No previous riddle!');
     }
-}
-
-function goToPage() {
-    window.location.href = "quiz.html";
-}
-
-document.getElementById('next-btn').addEventListener('click', nextRiddle);
-document.getElementById('prev-btn').addEventListener('click', previousRiddle);
-
-document.getElementById('restart-btn').addEventListener('click', () => {
-    currentIndex = Math.floor(Math.random() * riddles.length);
+  }
+  
+  // 🏁 Final Score
+  function showFinalScore() {
+    if (!el.scoreText || !el.finalModal) return;
+    el.scoreText.textContent = `${language === 'fr' ? 'Ton score est de' : 'Your score is'} ${score} / ${riddles.length}`;
+    el.finalModal.style.display = 'flex';
+  }
+  
+  // 🔁 Restart
+  function restartQuiz() {
+    currentIndex = 0;
     score = 0;
-    cumul = [0];
+    usedIndices = [0];
     history = [];
-    document.getElementById('final-score-modal').style.display = 'none';
+    if (el.finalModal) el.finalModal.style.display = 'none';
     showRiddle();
-});
-
-loadRiddles();
+  }
+  
+  // 🌍 Language Change
+  function updateLanguage() {
+    language = el.languageSelect?.value || 'en';
+    showRiddle();
+  }
+  
+  // 🌐 Redirect Page
+  function goToPage() {
+    const selectedLang = el.languageSelect?.value;
+    if (selectedLang === 'fr') {
+      window.location.href = 'quiz_fr.html';
+    } else {
+      window.location.href = 'quiz_en.html';
+    }
+  }
+  
+  // 📌 Safe Event Listeners
+  if (el.submitBtn) el.submitBtn.addEventListener('click', checkAnswer);
+  if (el.answerInput) el.answerInput.addEventListener('keydown', e => { if (e.key === 'Enter') checkAnswer(); });
+  if (el.revealBox?.querySelector('button')) el.revealBox.querySelector('button').addEventListener('click', revealAnswer);
+  if (el.nextBtn) el.nextBtn.addEventListener('click', nextRiddle);
+  if (el.prevBtn) el.prevBtn.addEventListener('click', previousRiddle);
+  if (el.restartBtn) el.restartBtn.addEventListener('click', restartQuiz);
+  if (el.languageSelect) el.languageSelect.addEventListener('change', updateLanguage);
+  
+  // 🚀 Init
+  if (el.riddleContainer) loadRiddles();  

@@ -1,12 +1,13 @@
 <!-- index.html -->
 <!DOCTYPE html>
 
-<html lang="fr">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Rébus Movie Quiz</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/png" href="assets/img/faviconn.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
@@ -16,17 +17,17 @@
                     <div id="riddle-container"></div>
                 </div>
                 <div class="answer-box">
-                    <input type="text" id="answer-input" placeholder="Votre réponse ici..." onfocus="this.placeholder=''" 
-                    onblur="this.placeholder='Votre réponse ici...'">
+                    <input type="text" id="answer-input" placeholder="Your answer here..." onfocus="this.placeholder=''" 
+                    onblur="this.placeholder='Your answer here...'">
                 </div>
                 <div class="submit-box">
-                    <button id="submit-btn">Valider</button>
+                    <button id="submit-btn">Submit</button>
                 </div>
                 <div class="feed-box">
                     <p id="feedback"></p>
                 </div>
                 <div id="reveal-res" class="reveal-answer" style="display: none;">
-                    <button id="reveal-btn"> Voir Réponse</button>
+                    <button id="reveal-btn"> See answer</button>
                 </div>
                 <div class="movie-title" id="movie-tit">
                     <h2 id="movie-specific"></h2>
@@ -35,22 +36,22 @@
                     <img id="movie-poster" src="" alt="Affiche du film" style="display: none;">
                 </div>
                 <div class="anecd-div" id="anecd-box" style="display: none;">
-                    <h3> Saviez-Vous ?</h3>
+                    <h3> Did you know ?</h3>
                     <p id="anecdote"></p>
                 </div>
                 <div class="switch-box">
                     <div class="prev-box">
-                        <button id="prev-btn">&#x23EE; Précédent</button> <!-- "&#x" allows to code in hex format-->
+                        <button id="prev-btn">&#x23EE; Previous</button> <!-- "&#x" allows to code in hex format-->
                     </div>
                     <div class="next-box">
-                        <button id="next-btn">⏭ Suivant</button>
+                        <button id="next-btn">⏭ Next</button>
                     </div>
                 </div>
                 <div id="final-score-modal" class="modal" style="display: none;">
                     <div class="modal-content">
-                      <h2>🎉 Quiz terminé !</h2>
+                      <h2>🎉 Game Over !</h2>
                       <p id="score-text"></p>
-                      <button id="restart-btn">🔁 Recommencer</button>
+                      <button id="restart-btn">🔁 Play Again</button>
                     </div>
                 </div>
             </div>

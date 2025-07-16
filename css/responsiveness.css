@@ -1,0 +1,60 @@
+@media (max-width: 650px) {
+#riddle-container {
+    font-size: 3rem;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.anecd-div {
+    width: 350px;
+}
+
+.movie-title {
+    width: 350px;
+}
+
+.switch-box {
+    top: 100%;
+}
+}
+
+@media (max-height: 500px) {
+    #riddle-container {
+        font-size: 3rem;
+    } 
+
+    .img-box {
+        top: 56%;
+        left: 65%;
+    }
+
+    .anecd-div {
+        top: 56%;
+        left: 30%;
+        height: 280px;
+        width: 150px;
+    }
+
+    .anecd-div p {
+        line-height: 30px;
+    }
+
+    .movie-title {
+        top: 10%;
+        font-size: 2rem;
+        width: 700px;
+    }
+
+    .reveal-answer {
+        top: 55%;
+    }
+
+    .feed-box {
+        top: 5%;
+    }
+}
