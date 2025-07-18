@@ -4,23 +4,62 @@
 }
 
 input {
-    width: 350px;
-    height: 40px;
-    font-size: 2rem;
+    width: 300px;
+    height: 30px;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .anecd-div {
-    width: 350px;
+    width: 290px;
+    height: auto;
+    top: 76%;
 }
 
 .movie-title {
-    width: 350px;
+    width: 330px;
+    top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie-specific {
+    width: 300px;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.img-box {
+    top: 40%;
 }
 
 .switch-box {
     top: 100%;
 }
+
+.answer-box {
+    top: 60%;
+}
+
+.reveal-answer {
+    top: 55%;
+}
+
+.switch-box {
+    top: 95%;
+}
+
+.rebus-box {
+    font-size: 3rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-box {
+    top: 5%;}
 }
 
 @media (max-height: 500px) {
@@ -37,7 +76,7 @@ input {
         top: 56%;
         left: 30%;
         height: 280px;
-        width: 150px;
+        width: 200px;
     }
 
     .anecd-div p {
@@ -46,7 +85,7 @@ input {
 
     .movie-title {
         top: 10%;
-        font-size: 2rem;
+        font-size: 1rem;
         width: 700px;
     }
 

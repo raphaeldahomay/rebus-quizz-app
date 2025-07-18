@@ -47,6 +47,18 @@
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
+    background-color: #e1e0e0;
+    border: 1px solid #050505;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background-color: #bbb8b8;
 }
 
 #quote-fam {
